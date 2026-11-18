@@ -113,6 +113,9 @@ CI runs lint, the suite on Python 3.11 and 3.13, and a live start-up check of th
 - **`data/registry/observed_bank_in.json`** (when present): every registrable `.bank.in` domain seen in public
   Certificate Transparency logs. It is built by `scripts/build_observed_bank_in.py` through the manually triggered
   *Refresh .bank.in snapshot* workflow.
+  - Current snapshot: **460** registrable `.bank.in` domains from 3,172 unexpired certificates (18 Nov 2026).
+  - A test checks that every curated `.bank.in` entry appears in it. That check corrected the seed list:
+    `unionbankonline.bank.in` had no current certificate; `unionbankofindia.bank.in` does.
 
 ## Limitations
 

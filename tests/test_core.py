@@ -282,3 +282,20 @@ def test_malformed_registry_is_rejected(tmp_path, mutate):
 def test_missing_registry_is_rejected(tmp_path):
     with pytest.raises(RegistryError):
         load_registry(tmp_path)
+
+
+def test_curated_bank_in_domains_are_confirmed_by_the_ct_snapshot():
+    registry = load_registry()
+    if not registry.observed_bank_in:
+        pytest.skip("no Certificate Transparency snapshot in data/registry")
+    curated = {d for e in registry.entities for d in e.bank_in}
+    missing = sorted(curated - registry.observed_bank_in)
+    assert not missing, f"curated .bank.in domains not seen in CT logs: {missing}"
+
+
+def test_bank_in_domain_outside_curated_list_mentions_the_snapshot(checker):
+    registry = load_registry()
+    unnamed = sorted(registry.observed_bank_in - {d for e in registry.entities for d in e.bank_in})[0]
+    result = verdict_of(checker, f"https://{unnamed}")
+    assert result.official_basis == "bank_namespace"
+    assert any("Certificate Transparency" in note for note in result.notes)
