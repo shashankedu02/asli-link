@@ -1,0 +1,25 @@
+name: Refresh .bank.in snapshot
+
+# Rebuilds data/registry/observed_bank_in.json from public Certificate Transparency logs.
+# Manual trigger only; the result is uploaded as an artifact and committed through a reviewed change.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: pip install -r requirements.txt
+      - run: python scripts/build_observed_bank_in.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: observed-bank-in
+          path: data/registry/observed_bank_in.json

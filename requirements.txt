@@ -1,0 +1,5 @@
+# Runtime (pinned). The core library needs only idna; FastAPI and uvicorn serve the web app.
+fastapi==0.115.6
+pydantic==2.10.4
+uvicorn==0.34.0
+idna==3.20
