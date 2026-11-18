@@ -31,7 +31,9 @@ def test_every_case_has_a_known_truth_and_provenance():
 
 
 def test_recorded_results_are_current():
-    done = subprocess.run([sys.executable, str(ROOT / "scripts/evaluate.py"), "--check"], capture_output=True, text=True)
+    done = subprocess.run(
+        [sys.executable, str(ROOT / "scripts/evaluate.py"), "--check"], capture_output=True, text=True
+    )
     assert done.returncode == 0, done.stdout + done.stderr
 
 

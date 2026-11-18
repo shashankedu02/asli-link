@@ -67,7 +67,7 @@ def summarise(data: dict) -> dict:
     groups = defaultdict(list)
     for c in cases:
         groups[(c["provenance"], c["truth"])].append(c)
-        out["by_category"].setdefault(f'{c["truth"]}/{c["category"]}', Counter())[c["outcome"]] += 1
+        out["by_category"].setdefault(f"{c['truth']}/{c['category']}", Counter())[c["outcome"]] += 1
     for (prov, truth), subset in sorted(groups.items()):
         out["by_provenance_truth"][f"{prov}/{truth}"] = {"n": len(subset), **Counter(c["outcome"] for c in subset)}
     out["by_category"] = {k: dict(v) for k, v in sorted(out["by_category"].items())}
@@ -81,9 +81,19 @@ def summarise(data: dict) -> dict:
             or (t == "out_of_scope" and o in ("official",))
         )
         if bad:
-            out["failures"].append({"id": c["id"], "text": c["text"], "truth": t, "category": c["category"],
-                                    "provenance": c["provenance"], "outcome": o})
-    out["impostor_judged_official"] = sum(1 for c in cases if c["truth"] in ("impostor", "out_of_scope") and c["outcome"] == "official")
+            out["failures"].append(
+                {
+                    "id": c["id"],
+                    "text": c["text"],
+                    "truth": t,
+                    "category": c["category"],
+                    "provenance": c["provenance"],
+                    "outcome": o,
+                }
+            )
+    out["impostor_judged_official"] = sum(
+        1 for c in cases if c["truth"] in ("impostor", "out_of_scope") and c["outcome"] == "official"
+    )
     return out
 
 
@@ -164,10 +174,27 @@ def main() -> int:
     args = ap.parse_args()
     data = run()
     s = summarise(data)
-    new_json = json.dumps({"registry_version": data["registry_version"], "n_cases": data["n_cases"], "summary": s, "cases": data["cases"]}, indent=1, sort_keys=True) + "\n"
+    new_json = (
+        json.dumps(
+            {
+                "registry_version": data["registry_version"],
+                "n_cases": data["n_cases"],
+                "summary": s,
+                "cases": data["cases"],
+            },
+            indent=1,
+            sort_keys=True,
+        )
+        + "\n"
+    )
     new_report = report(data, s)
     if args.check:
-        same = RESULTS.exists() and RESULTS.read_text(encoding="utf-8") == new_json and REPORT.exists() and REPORT.read_text(encoding="utf-8") == new_report
+        same = (
+            RESULTS.exists()
+            and RESULTS.read_text(encoding="utf-8") == new_json
+            and REPORT.exists()
+            and REPORT.read_text(encoding="utf-8") == new_report
+        )
         print("up to date" if same else "STALE: rerun scripts/evaluate.py")
         return 0 if same else 1
     RESULTS.write_text(new_json, encoding="utf-8")

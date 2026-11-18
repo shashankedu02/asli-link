@@ -40,8 +40,16 @@ def build() -> list[dict]:
     rows: list[dict] = []
 
     def add(text, truth, category, provenance, note=""):
-        rows.append({"id": f"C{len(rows) + 1:04d}", "text": text, "truth": truth, "category": category,
-                     "provenance": provenance, "note": note})
+        rows.append(
+            {
+                "id": f"C{len(rows) + 1:04d}",
+                "text": text,
+                "truth": truth,
+                "category": category,
+                "provenance": provenance,
+                "note": note,
+            }
+        )
 
     for e in data["entities"]:
         for d in e.get("bank_in", []) + e.get("other_official", []):
@@ -53,7 +61,13 @@ def build() -> list[dict]:
         add(f"http://{tok}.secure-login.xyz/", "impostor", "brand_as_subdomain", "synthetic_impostor", e["id"])
         if official:
             label = official.split(".")[0]
-            add(f"https://{official}@secure-check.example/login", "impostor", "userinfo_trick", "synthetic_impostor", e["id"])
+            add(
+                f"https://{official}@secure-check.example/login",
+                "impostor",
+                "userinfo_trick",
+                "synthetic_impostor",
+                e["id"],
+            )
             add(f"https://{official}.verify-now.com/", "impostor", "deceptive_suffix", "synthetic_impostor", e["id"])
             # Not under .bank.in: that namespace is restricted to authorised banks, so a typo inside it is not an impostor.
             add(f"https://{typo(label)}.co.in/", "impostor", "typo_of_official", "synthetic_impostor", e["id"])
@@ -73,7 +87,11 @@ def build() -> list[dict]:
         ("Dear customer, income tax refund pending. Claim http://refund-claim.top/in", "impostor", "claim_mismatch"),
         ("https://sbi.bank.in.account-review.top/signin", "impostor", "deceptive_suffix"),
         ("http://xn--sb-pia.bank.in.example/", "impostor", "punycode_lookalike"),
-        ("Your electricity will be cut tonight. Pay now http://secure-login-portal.xyz/auth", "out_of_scope", "unbranded_phishing"),
+        (
+            "Your electricity will be cut tonight. Pay now http://secure-login-portal.xyz/auth",
+            "out_of_scope",
+            "unbranded_phishing",
+        ),
         ("You won a prize! Collect at http://winner-prize-claim.top/x", "out_of_scope", "unbranded_phishing"),
         ("Pay the courier fee at http://delivery-fee-pay.live/c", "out_of_scope", "unbranded_phishing"),
         ("http://bit.ly/3xYz9Ab", "hidden", "shortener"),
