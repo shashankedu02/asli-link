@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "registry_version": "2026-11-18-seed",
+  "description": "Curated identities that Asli Link recognises. A domain listed here is treated as official for the named entity. 'bank_in' lists domains under the RBI-restricted .bank.in namespace that have been confirmed; 'other_official' lists other official domains: for banks these are older domains (RBI asked banks to migrate to .bank.in by 31 Oct 2025), for institutions their main domain. 'tokens' are brand strings looked for inside other domains; 'claims' are names looked for in message text. Tokens and claims only ever raise impersonation signals; they never make a domain official.",
+  "namespaces": [
+    {"suffix": "bank.in", "kind": "bank", "label": "RBI-restricted bank namespace", "basis": "RBI circular RBI/2025-26/28 (22 Apr 2025): registration only for RBI-regulated banks, via IDRBT as registrar"},
+    {"suffix": "gov.in", "kind": "government", "label": "Government of India namespace", "basis": "Registrations restricted to government entities (NIC)"},
+    {"suffix": "nic.in", "kind": "government", "label": "National Informatics Centre namespace", "basis": "Operated by NIC; used by most government institutions (Public Suffix List note)"}
+  ],
+  "entities": [
+    {"id": "sbi", "kind": "bank", "name": "State Bank of India", "bank_in": [], "other_official": ["onlinesbi.sbi", "sbi.co.in"], "tokens": ["sbi", "onlinesbi", "sbionline", "statebank", "yono"], "claims": ["sbi", "state bank of india", "state bank", "yono"]},
+    {"id": "hdfc", "kind": "bank", "name": "HDFC Bank", "bank_in": [], "other_official": ["hdfcbank.com"], "tokens": ["hdfc", "hdfcbank"], "claims": ["hdfc bank", "hdfc"]},
+    {"id": "icici", "kind": "bank", "name": "ICICI Bank", "bank_in": [], "other_official": ["icicibank.com"], "tokens": ["icici", "icicibank"], "claims": ["icici bank", "icici"]},
+    {"id": "axis", "kind": "bank", "name": "Axis Bank", "bank_in": [], "other_official": ["axisbank.com"], "tokens": ["axisbank"], "claims": ["axis bank"]},
+    {"id": "kotak", "kind": "bank", "name": "Kotak Mahindra Bank", "bank_in": ["kotak.bank.in"], "other_official": ["kotak.com"], "tokens": ["kotak", "kotakbank"], "claims": ["kotak mahindra bank", "kotak bank", "kotak"]},
+    {"id": "pnb", "kind": "bank", "name": "Punjab National Bank", "bank_in": [], "other_official": ["pnbindia.in"], "tokens": ["pnb", "pnbindia", "punjabnational"], "claims": ["punjab national bank", "pnb"]},
+    {"id": "bob", "kind": "bank", "name": "Bank of Baroda", "bank_in": [], "other_official": ["bankofbaroda.in"], "tokens": ["bankofbaroda"], "claims": ["bank of baroda"]},
+    {"id": "canara", "kind": "bank", "name": "Canara Bank", "bank_in": [], "other_official": ["canarabank.com"], "tokens": ["canara", "canarabank"], "claims": ["canara bank"]},
+    {"id": "union", "kind": "bank", "name": "Union Bank of India", "bank_in": ["unionbankonline.bank.in"], "other_official": ["unionbankofindia.co.in"], "tokens": ["unionbank", "unionbankofindia", "unionbankonline"], "claims": ["union bank of india", "union bank"]},
+    {"id": "indusind", "kind": "bank", "name": "IndusInd Bank", "bank_in": ["indusind.bank.in"], "other_official": ["indusind.com"], "tokens": ["indusind"], "claims": ["indusind bank", "indusind"]},
+    {"id": "idfcfirst", "kind": "bank", "name": "IDFC FIRST Bank", "bank_in": ["idfcfirst.bank.in"], "other_official": ["idfcfirstbank.com"], "tokens": ["idfc", "idfcfirst"], "claims": ["idfc first bank", "idfc first", "idfc"]},
+    {"id": "ujjivan", "kind": "bank", "name": "Ujjivan Small Finance Bank", "bank_in": ["ujjivansfb.bank.in"], "other_official": [], "tokens": ["ujjivan"], "claims": ["ujjivan"]},
+
+    {"id": "incometax", "kind": "government", "name": "Income Tax Department", "bank_in": [], "other_official": [], "tokens": ["incometax", "itrefund", "itr-refund"], "claims": ["income tax", "income-tax", "it refund", "itr refund"]},
+    {"id": "epfo", "kind": "government", "name": "EPFO", "bank_in": [], "other_official": [], "tokens": ["epfo", "epfindia", "uanepf"], "claims": ["epfo", "provident fund", "uan"]},
+    {"id": "uidai", "kind": "government", "name": "UIDAI (Aadhaar)", "bank_in": [], "other_official": [], "tokens": ["uidai", "aadhaar", "aadhar", "maadhaar"], "claims": ["aadhaar", "aadhar", "uidai"]},
+    {"id": "indiapost", "kind": "government", "name": "India Post", "bank_in": [], "other_official": [], "tokens": ["indiapost", "indiapst", "speedpost"], "claims": ["india post", "indiapost", "speed post"]},
+    {"id": "parivahan", "kind": "government", "name": "Parivahan / e-Challan", "bank_in": [], "other_official": [], "tokens": ["parivahan", "echallan", "e-challan"], "claims": ["e-challan", "echallan", "traffic challan", "parivahan"]},
+    {"id": "passport", "kind": "government", "name": "Passport Seva", "bank_in": [], "other_official": [], "tokens": ["passportindia", "passportseva"], "claims": ["passport seva"]},
+    {"id": "digilocker", "kind": "government", "name": "DigiLocker", "bank_in": [], "other_official": [], "tokens": ["digilocker"], "claims": ["digilocker"]},
+    {"id": "pmkisan", "kind": "government", "name": "PM-KISAN", "bank_in": [], "other_official": [], "tokens": ["pmkisan", "pm-kisan"], "claims": ["pm kisan", "pm-kisan"]},
+
+    {"id": "rbi", "kind": "institution", "name": "Reserve Bank of India", "bank_in": [], "other_official": ["rbi.org.in"], "tokens": ["rbi"], "claims": ["reserve bank of india", "rbi"]},
+    {"id": "npci", "kind": "institution", "name": "NPCI (UPI / BHIM)", "bank_in": [], "other_official": ["npci.org.in"], "tokens": ["npci"], "claims": ["npci"]},
+    {"id": "irctc", "kind": "institution", "name": "IRCTC", "bank_in": [], "other_official": ["irctc.co.in"], "tokens": ["irctc"], "claims": ["irctc"]}
+  ],
+  "shorteners": ["bit.ly", "tinyurl.com", "cutt.ly", "is.gd", "t.ly", "rb.gy", "shorturl.at", "tiny.cc", "ow.ly", "s.id", "rebrand.ly", "t.co", "goo.su", "v.gd"],
+  "lure_keywords": ["kyc", "update", "verify", "verification", "login", "secure", "blocked", "block", "suspend", "refund", "reward", "points", "redeem", "bonus", "kyc-update", "pan", "otp", "netbanking", "support", "help", "customer"]
+}
