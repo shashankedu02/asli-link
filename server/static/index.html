@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Asli Link · Is this link really your bank?</title>
+  <meta name="description" content="Check whether a link really belongs to the Indian bank or government office it claims to be.">
+  <link rel="stylesheet" href="/static/styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231f3a5f'/%3E%3Cpath d='M9 17l5 5 9-11' stroke='%23fff' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+</head>
+<body>
+  <a class="skip" href="#check">Skip to the checker</a>
+  <header class="top">
+    <div class="wrap top-inner">
+      <span class="brand"><span class="brand-mark" aria-hidden="true">A</span> Asli Link</span>
+      <nav aria-label="Page"><a href="#how">How it decides</a><a href="#limits">Limits</a></nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <section class="intro">
+      <h1>Is this link really your bank?</h1>
+      <p class="lede">Paste a link or the whole SMS or WhatsApp message. Asli Link checks whether the address belongs to the
+        bank or government office it claims to be, using India's official namespaces: <code>.bank.in</code>,
+        <code>.gov.in</code> and <code>.nic.in</code>.</p>
+    </section>
+
+    <form id="check" class="card check" novalidate>
+      <label for="text" class="label">Link or message</label>
+      <textarea id="text" name="text" rows="5" maxlength="5000" spellcheck="false" autocomplete="off"
+        placeholder="e.g. Dear customer, your account will be blocked today. Update KYC: https://…"
+        aria-describedby="privacy"></textarea>
+      <div class="row">
+        <p id="privacy" class="hint">Nothing you paste is stored, and no link is opened.</p>
+        <button type="submit" id="submit" class="btn">Check</button>
+      </div>
+      <div class="samples" role="group" aria-label="Try an example">
+        <span class="hint">Try:</span>
+        <button type="button" class="chip" data-sample="Dear SBI customer, your YONO account will be blocked today. Update PAN/KYC now: https://sbi-yono-kyc.top/login">Fake bank KYC SMS</button>
+        <button type="button" class="chip" data-sample="https://kotak.bank.in">A real .bank.in link</button>
+        <button type="button" class="chip" data-sample="Income Tax refund of Rs 15,490 approved. Verify your account: incometax.gov.in.refund-status.co/verify">Fake tax refund</button>
+        <button type="button" class="chip" data-sample="India Post: your parcel is on hold, pay Rs 25 to release: https://bit.ly/3Xp9qL2">Shortened link</button>
+      </div>
+    </form>
+
+    <section id="result" class="result" aria-live="polite" aria-busy="false"></section>
+
+    <section id="how" class="card prose">
+      <h2>How it decides</h2>
+      <ol class="steps">
+        <li><strong>Find the real owner of the address.</strong> The part that decides who owns a website is the end of
+          the host name, read with the <a href="https://publicsuffix.org/">Public Suffix List</a>.
+          In <code>sbi.bank.in.secure-login.xyz</code> the owner is <code>secure-login.xyz</code>, not SBI.</li>
+        <li><strong>Check official namespaces.</strong> Only RBI-regulated banks can register under
+          <code>.bank.in</code> (RBI circular, April 2025). <code>.gov.in</code> and <code>.nic.in</code> are for
+          government. A short list of older bank domains and institutions (such as RBI and NPCI) is curated by hand.</li>
+        <li><strong>Look for impersonation.</strong> Bank or department names inside someone else's domain, lookalike
+          spellings (<code>onlinesbl</code>), mixed alphabets (a Cyrillic <code>а</code> in <code>аxisbank</code>),
+          fake namespaces (<code>bank-in.com</code>), and messages that name a bank but link elsewhere.</li>
+        <li><strong>Say only what can be established.</strong> If none of that applies, the answer is
+          <em>Not recognised</em>, which is not the same as safe.</li>
+      </ol>
+    </section>
+
+    <section id="limits" class="card prose">
+      <h2>What this cannot tell you</h2>
+      <ul>
+        <li>An official domain says who owns the site, not that a request is genuine. Banks never ask for your OTP, PIN or
+          password by link.</li>
+        <li>Official sites can be compromised. A shortened link hides its destination, so it is never opened.</li>
+        <li>The curated list does not include every bank, department or company. Missing from the list means
+          <em>not recognised</em>, never <em>fake</em>.</li>
+        <li>If you have lost money, call <strong>1930</strong> or report at
+          <a href="https://cybercrime.gov.in">cybercrime.gov.in</a> immediately. To report a fraud message, use
+          <a href="https://sancharsaathi.gov.in">Sanchar Saathi (Chakshu)</a>.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <p>Asli Link is an open-source student project and not affiliated with RBI, NPCI or any bank or government body.
+      Registry <span id="registry-version">…</span>.
+      <a href="https://github.com/shashankedu02/asli-link">Source code and method</a>.</p>
+  </footer>
+
+  <template id="link-template">
+    <article class="card link">
+      <header class="link-head">
+        <span class="badge"></span>
+        <h3 class="link-headline"></h3>
+      </header>
+      <p class="host" aria-label="Address"><span class="host-sub"></span><span class="host-owner"></span></p>
+      <p class="owner-note hint"></p>
+      <ul class="signals"></ul>
+      <ul class="notes"></ul>
+    </article>
+  </template>
+
+  <script src="/static/app.js" defer></script>
+</body>
+</html>
