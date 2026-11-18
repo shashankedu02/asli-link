@@ -1,0 +1,190 @@
+id,text,truth,category,provenance,note
+C0001,Open https://sbi.bank.in/login to continue,official,official_domain,registry_official,sbi
+C0002,Open https://onlinesbi.sbi/login to continue,official,official_domain,registry_official,sbi
+C0003,Open https://sbi.co.in/login to continue,official,official_domain,registry_official,sbi
+C0004,Open https://hdfc.bank.in/login to continue,official,official_domain,registry_official,hdfc
+C0005,Open https://hdfcbank.bank.in/login to continue,official,official_domain,registry_official,hdfc
+C0006,Open https://hdfcbank.com/login to continue,official,official_domain,registry_official,hdfc
+C0007,Open https://icici.bank.in/login to continue,official,official_domain,registry_official,icici
+C0008,Open https://icicibank.com/login to continue,official,official_domain,registry_official,icici
+C0009,Open https://axis.bank.in/login to continue,official,official_domain,registry_official,axis
+C0010,Open https://axisbank.com/login to continue,official,official_domain,registry_official,axis
+C0011,Open https://kotak.bank.in/login to continue,official,official_domain,registry_official,kotak
+C0012,Open https://kotak811.bank.in/login to continue,official,official_domain,registry_official,kotak
+C0013,Open https://kotak.com/login to continue,official,official_domain,registry_official,kotak
+C0014,Open https://pnb.bank.in/login to continue,official,official_domain,registry_official,pnb
+C0015,Open https://pnbindia.in/login to continue,official,official_domain,registry_official,pnb
+C0016,Open https://bankofbaroda.bank.in/login to continue,official,official_domain,registry_official,bob
+C0017,Open https://bankofbaroda.in/login to continue,official,official_domain,registry_official,bob
+C0018,Open https://canarabank.bank.in/login to continue,official,official_domain,registry_official,canara
+C0019,Open https://canara.bank.in/login to continue,official,official_domain,registry_official,canara
+C0020,Open https://canarabank.com/login to continue,official,official_domain,registry_official,canara
+C0021,Open https://unionbankofindia.bank.in/login to continue,official,official_domain,registry_official,union
+C0022,Open https://unionbankofindia.co.in/login to continue,official,official_domain,registry_official,union
+C0023,Open https://indusind.bank.in/login to continue,official,official_domain,registry_official,indusind
+C0024,Open https://indusind.com/login to continue,official,official_domain,registry_official,indusind
+C0025,Open https://idfcfirst.bank.in/login to continue,official,official_domain,registry_official,idfcfirst
+C0026,Open https://idfcfirstbank.com/login to continue,official,official_domain,registry_official,idfcfirst
+C0027,Open https://ujjivansfb.bank.in/login to continue,official,official_domain,registry_official,ujjivan
+C0028,Open https://yes.bank.in/login to continue,official,official_domain,registry_official,yes
+C0029,Open https://yesbank.in/login to continue,official,official_domain,registry_official,yes
+C0030,Open https://federal.bank.in/login to continue,official,official_domain,registry_official,federal
+C0031,Open https://federalbank.co.in/login to continue,official,official_domain,registry_official,federal
+C0032,Open https://rbi.org.in/login to continue,official,official_domain,registry_official,rbi
+C0033,Open https://npci.org.in/login to continue,official,official_domain,registry_official,npci
+C0034,Open https://irctc.co.in/login to continue,official,official_domain,registry_official,irctc
+C0035,https://sbi-kyc-update.com/verify,impostor,brand_in_hyphen_domain,synthetic_impostor,sbi
+C0036,http://sbi.secure-login.xyz/,impostor,brand_as_subdomain,synthetic_impostor,sbi
+C0037,https://sbi.bank.in@secure-check.example/login,impostor,userinfo_trick,synthetic_impostor,sbi
+C0038,https://sbi.bank.in.verify-now.com/,impostor,deceptive_suffix,synthetic_impostor,sbi
+C0039,https://sbii.co.in/,impostor,typo_of_official,synthetic_impostor,sbi
+C0040,https://sb1.bank.in.example.com/,impostor,homoglyph_label,synthetic_impostor,sbi
+C0041,https://sbi.bankin.com/,impostor,namespace_lookalike,synthetic_impostor,sbi
+C0042,https://hdfc-kyc-update.com/verify,impostor,brand_in_hyphen_domain,synthetic_impostor,hdfc
+C0043,http://hdfc.secure-login.xyz/,impostor,brand_as_subdomain,synthetic_impostor,hdfc
+C0044,https://hdfc.bank.in@secure-check.example/login,impostor,userinfo_trick,synthetic_impostor,hdfc
+C0045,https://hdfc.bank.in.verify-now.com/,impostor,deceptive_suffix,synthetic_impostor,hdfc
+C0046,https://hdcf.co.in/,impostor,typo_of_official,synthetic_impostor,hdfc
+C0047,https://hdfc.bankin.com/,impostor,namespace_lookalike,synthetic_impostor,hdfc
+C0048,https://icici-kyc-update.com/verify,impostor,brand_in_hyphen_domain,synthetic_impostor,icici
+C0049,http://icici.secure-login.xyz/,impostor,brand_as_subdomain,synthetic_impostor,icici
+C0050,https://icici.bank.in@secure-check.example/login,impostor,userinfo_trick,synthetic_impostor,icici
+C0051,https://icici.bank.in.verify-now.com/,impostor,deceptive_suffix,synthetic_impostor,icici
+C0052,https://iciic.co.in/,impostor,typo_of_official,synthetic_impostor,icici
+C0053,https://1cici.bank.in.example.com/,impostor,homoglyph_label,synthetic_impostor,icici
+C0054,https://icici.bankin.com/,impostor,namespace_lookalike,synthetic_impostor,icici
+C0055,https://axisbank-kyc-update.com/verify,impostor,brand_in_hyphen_domain,synthetic_impostor,axis
+C0056,http://axisbank.secure-login.xyz/,impostor,brand_as_subdomain,synthetic_impostor,axis
+C0057,https://axis.bank.in@secure-check.example/login,impostor,userinfo_trick,synthetic_impostor,axis
+C0058,https://axis.bank.in.verify-now.com/,impostor,deceptive_suffix,synthetic_impostor,axis
+C0059,https://axsi.co.in/,impostor,typo_of_official,synthetic_impostor,axis
+C0060,https://ax1s.bank.in.example.com/,impostor,homoglyph_label,synthetic_impostor,axis
+C0061,https://axisbank.bankin.com/,impostor,namespace_lookalike,synthetic_impostor,axis
+C0062,https://kotak-kyc-update.com/verify,impostor,brand_in_hyphen_domain,synthetic_impostor,kotak
+C0063,http://kotak.secure-login.xyz/,impostor,brand_as_subdomain,synthetic_impostor,kotak
+C0064,https://kotak.bank.in@secure-check.example/login,impostor,userinfo_trick,synthetic_impostor,kotak
+C0065,https://kotak.bank.in.verify-now.com/,impostor,deceptive_suffix,synthetic_impostor,kotak
+C0066,https://kotka.co.in/,impostor,typo_of_official,synthetic_impostor,kotak
+C0067,https://k0tak.bank.in.example.com/,impostor,homoglyph_label,synthetic_impostor,kotak
+C0068,https://kotak.bankin.com/,impostor,namespace_lookalike,synthetic_impostor,kotak
+C0069,https://pnb-kyc-update.com/verify,impostor,brand_in_hyphen_domain,synthetic_impostor,pnb
+C0070,http://pnb.secure-login.xyz/,impostor,brand_as_subdomain,synthetic_impostor,pnb
+C0071,https://pnb.bank.in@secure-check.example/login,impostor,userinfo_trick,synthetic_impostor,pnb
+C0072,https://pnb.bank.in.verify-now.com/,impostor,deceptive_suffix,synthetic_impostor,pnb
+C0073,https://pnbb.co.in/,impostor,typo_of_official,synthetic_impostor,pnb
+C0074,https://pnb.bankin.com/,impostor,namespace_lookalike,synthetic_impostor,pnb
+C0075,https://bankofbaroda-kyc-update.com/verify,impostor,brand_in_hyphen_domain,synthetic_impostor,bob
+C0076,http://bankofbaroda.secure-login.xyz/,impostor,brand_as_subdomain,synthetic_impostor,bob
+C0077,https://bankofbaroda.bank.in@secure-check.example/login,impostor,userinfo_trick,synthetic_impostor,bob
+C0078,https://bankofbaroda.bank.in.verify-now.com/,impostor,deceptive_suffix,synthetic_impostor,bob
+C0079,https://bankofbaroad.co.in/,impostor,typo_of_official,synthetic_impostor,bob
+C0080,https://bank0fbaroda.bank.in.example.com/,impostor,homoglyph_label,synthetic_impostor,bob
+C0081,https://bankofbaroda.bankin.com/,impostor,namespace_lookalike,synthetic_impostor,bob
+C0082,https://canara-kyc-update.com/verify,impostor,brand_in_hyphen_domain,synthetic_impostor,canara
+C0083,http://canara.secure-login.xyz/,impostor,brand_as_subdomain,synthetic_impostor,canara
+C0084,https://canarabank.bank.in@secure-check.example/login,impostor,userinfo_trick,synthetic_impostor,canara
+C0085,https://canarabank.bank.in.verify-now.com/,impostor,deceptive_suffix,synthetic_impostor,canara
+C0086,https://canarabakn.co.in/,impostor,typo_of_official,synthetic_impostor,canara
+C0087,https://canara.bankin.com/,impostor,namespace_lookalike,synthetic_impostor,canara
+C0088,https://unionbank-kyc-update.com/verify,impostor,brand_in_hyphen_domain,synthetic_impostor,union
+C0089,http://unionbank.secure-login.xyz/,impostor,brand_as_subdomain,synthetic_impostor,union
+C0090,https://unionbankofindia.bank.in@secure-check.example/login,impostor,userinfo_trick,synthetic_impostor,union
+C0091,https://unionbankofindia.bank.in.verify-now.com/,impostor,deceptive_suffix,synthetic_impostor,union
+C0092,https://unionbankofindai.co.in/,impostor,typo_of_official,synthetic_impostor,union
+C0093,https://uni0nbankofindia.bank.in.example.com/,impostor,homoglyph_label,synthetic_impostor,union
+C0094,https://unionbank.bankin.com/,impostor,namespace_lookalike,synthetic_impostor,union
+C0095,https://indusind-kyc-update.com/verify,impostor,brand_in_hyphen_domain,synthetic_impostor,indusind
+C0096,http://indusind.secure-login.xyz/,impostor,brand_as_subdomain,synthetic_impostor,indusind
+C0097,https://indusind.bank.in@secure-check.example/login,impostor,userinfo_trick,synthetic_impostor,indusind
+C0098,https://indusind.bank.in.verify-now.com/,impostor,deceptive_suffix,synthetic_impostor,indusind
+C0099,https://indusidn.co.in/,impostor,typo_of_official,synthetic_impostor,indusind
+C0100,https://1ndusind.bank.in.example.com/,impostor,homoglyph_label,synthetic_impostor,indusind
+C0101,https://indusind.bankin.com/,impostor,namespace_lookalike,synthetic_impostor,indusind
+C0102,https://idfc-kyc-update.com/verify,impostor,brand_in_hyphen_domain,synthetic_impostor,idfcfirst
+C0103,http://idfc.secure-login.xyz/,impostor,brand_as_subdomain,synthetic_impostor,idfcfirst
+C0104,https://idfcfirst.bank.in@secure-check.example/login,impostor,userinfo_trick,synthetic_impostor,idfcfirst
+C0105,https://idfcfirst.bank.in.verify-now.com/,impostor,deceptive_suffix,synthetic_impostor,idfcfirst
+C0106,https://idfcfirts.co.in/,impostor,typo_of_official,synthetic_impostor,idfcfirst
+C0107,https://1dfcfirst.bank.in.example.com/,impostor,homoglyph_label,synthetic_impostor,idfcfirst
+C0108,https://idfc.bankin.com/,impostor,namespace_lookalike,synthetic_impostor,idfcfirst
+C0109,https://ujjivan-kyc-update.com/verify,impostor,brand_in_hyphen_domain,synthetic_impostor,ujjivan
+C0110,http://ujjivan.secure-login.xyz/,impostor,brand_as_subdomain,synthetic_impostor,ujjivan
+C0111,https://ujjivansfb.bank.in@secure-check.example/login,impostor,userinfo_trick,synthetic_impostor,ujjivan
+C0112,https://ujjivansfb.bank.in.verify-now.com/,impostor,deceptive_suffix,synthetic_impostor,ujjivan
+C0113,https://ujjivansbf.co.in/,impostor,typo_of_official,synthetic_impostor,ujjivan
+C0114,https://ujj1vansfb.bank.in.example.com/,impostor,homoglyph_label,synthetic_impostor,ujjivan
+C0115,https://ujjivan.bankin.com/,impostor,namespace_lookalike,synthetic_impostor,ujjivan
+C0116,https://yesbank-kyc-update.com/verify,impostor,brand_in_hyphen_domain,synthetic_impostor,yes
+C0117,http://yesbank.secure-login.xyz/,impostor,brand_as_subdomain,synthetic_impostor,yes
+C0118,https://yes.bank.in@secure-check.example/login,impostor,userinfo_trick,synthetic_impostor,yes
+C0119,https://yes.bank.in.verify-now.com/,impostor,deceptive_suffix,synthetic_impostor,yes
+C0120,https://yess.co.in/,impostor,typo_of_official,synthetic_impostor,yes
+C0121,https://ye5.bank.in.example.com/,impostor,homoglyph_label,synthetic_impostor,yes
+C0122,https://yesbank.bankin.com/,impostor,namespace_lookalike,synthetic_impostor,yes
+C0123,https://federalbank-kyc-update.com/verify,impostor,brand_in_hyphen_domain,synthetic_impostor,federal
+C0124,http://federalbank.secure-login.xyz/,impostor,brand_as_subdomain,synthetic_impostor,federal
+C0125,https://federal.bank.in@secure-check.example/login,impostor,userinfo_trick,synthetic_impostor,federal
+C0126,https://federal.bank.in.verify-now.com/,impostor,deceptive_suffix,synthetic_impostor,federal
+C0127,https://federla.co.in/,impostor,typo_of_official,synthetic_impostor,federal
+C0128,https://federa1.bank.in.example.com/,impostor,homoglyph_label,synthetic_impostor,federal
+C0129,https://federalbank.bankin.com/,impostor,namespace_lookalike,synthetic_impostor,federal
+C0130,https://incometax-kyc-update.com/verify,impostor,brand_in_hyphen_domain,synthetic_impostor,incometax
+C0131,http://incometax.secure-login.xyz/,impostor,brand_as_subdomain,synthetic_impostor,incometax
+C0132,https://incometax.bankin.com/,impostor,namespace_lookalike,synthetic_impostor,incometax
+C0133,https://epfo-kyc-update.com/verify,impostor,brand_in_hyphen_domain,synthetic_impostor,epfo
+C0134,http://epfo.secure-login.xyz/,impostor,brand_as_subdomain,synthetic_impostor,epfo
+C0135,https://epfo.bankin.com/,impostor,namespace_lookalike,synthetic_impostor,epfo
+C0136,https://uidai-kyc-update.com/verify,impostor,brand_in_hyphen_domain,synthetic_impostor,uidai
+C0137,http://uidai.secure-login.xyz/,impostor,brand_as_subdomain,synthetic_impostor,uidai
+C0138,https://uidai.bankin.com/,impostor,namespace_lookalike,synthetic_impostor,uidai
+C0139,https://indiapost-kyc-update.com/verify,impostor,brand_in_hyphen_domain,synthetic_impostor,indiapost
+C0140,http://indiapost.secure-login.xyz/,impostor,brand_as_subdomain,synthetic_impostor,indiapost
+C0141,https://indiapost.bankin.com/,impostor,namespace_lookalike,synthetic_impostor,indiapost
+C0142,https://parivahan-kyc-update.com/verify,impostor,brand_in_hyphen_domain,synthetic_impostor,parivahan
+C0143,http://parivahan.secure-login.xyz/,impostor,brand_as_subdomain,synthetic_impostor,parivahan
+C0144,https://parivahan.bankin.com/,impostor,namespace_lookalike,synthetic_impostor,parivahan
+C0145,https://passportindia-kyc-update.com/verify,impostor,brand_in_hyphen_domain,synthetic_impostor,passport
+C0146,http://passportindia.secure-login.xyz/,impostor,brand_as_subdomain,synthetic_impostor,passport
+C0147,https://passportindia.bankin.com/,impostor,namespace_lookalike,synthetic_impostor,passport
+C0148,https://digilocker-kyc-update.com/verify,impostor,brand_in_hyphen_domain,synthetic_impostor,digilocker
+C0149,http://digilocker.secure-login.xyz/,impostor,brand_as_subdomain,synthetic_impostor,digilocker
+C0150,https://digilocker.bankin.com/,impostor,namespace_lookalike,synthetic_impostor,digilocker
+C0151,https://pmkisan-kyc-update.com/verify,impostor,brand_in_hyphen_domain,synthetic_impostor,pmkisan
+C0152,http://pmkisan.secure-login.xyz/,impostor,brand_as_subdomain,synthetic_impostor,pmkisan
+C0153,https://pmkisan.bankin.com/,impostor,namespace_lookalike,synthetic_impostor,pmkisan
+C0154,https://rbi-kyc-update.com/verify,impostor,brand_in_hyphen_domain,synthetic_impostor,rbi
+C0155,http://rbi.secure-login.xyz/,impostor,brand_as_subdomain,synthetic_impostor,rbi
+C0156,https://rbi.org.in@secure-check.example/login,impostor,userinfo_trick,synthetic_impostor,rbi
+C0157,https://rbi.org.in.verify-now.com/,impostor,deceptive_suffix,synthetic_impostor,rbi
+C0158,https://rbii.co.in/,impostor,typo_of_official,synthetic_impostor,rbi
+C0159,https://rb1.bank.in.example.com/,impostor,homoglyph_label,synthetic_impostor,rbi
+C0160,https://rbi.bankin.com/,impostor,namespace_lookalike,synthetic_impostor,rbi
+C0161,https://npci-kyc-update.com/verify,impostor,brand_in_hyphen_domain,synthetic_impostor,npci
+C0162,http://npci.secure-login.xyz/,impostor,brand_as_subdomain,synthetic_impostor,npci
+C0163,https://npci.org.in@secure-check.example/login,impostor,userinfo_trick,synthetic_impostor,npci
+C0164,https://npci.org.in.verify-now.com/,impostor,deceptive_suffix,synthetic_impostor,npci
+C0165,https://npic.co.in/,impostor,typo_of_official,synthetic_impostor,npci
+C0166,https://npc1.bank.in.example.com/,impostor,homoglyph_label,synthetic_impostor,npci
+C0167,https://npci.bankin.com/,impostor,namespace_lookalike,synthetic_impostor,npci
+C0168,https://irctc-kyc-update.com/verify,impostor,brand_in_hyphen_domain,synthetic_impostor,irctc
+C0169,http://irctc.secure-login.xyz/,impostor,brand_as_subdomain,synthetic_impostor,irctc
+C0170,https://irctc.co.in@secure-check.example/login,impostor,userinfo_trick,synthetic_impostor,irctc
+C0171,https://irctc.co.in.verify-now.com/,impostor,deceptive_suffix,synthetic_impostor,irctc
+C0172,https://ircct.co.in/,impostor,typo_of_official,synthetic_impostor,irctc
+C0173,https://1rctc.bank.in.example.com/,impostor,homoglyph_label,synthetic_impostor,irctc
+C0174,https://irctc.bankin.com/,impostor,namespace_lookalike,synthetic_impostor,irctc
+C0175,https://www.python.org/downloads/,benign,plain_benign,handwritten,
+C0176,https://en.wikipedia.org/wiki/State_Bank_of_India,benign,benign_with_brand_in_path,handwritten,
+C0177,Read about HDFC history at https://en.wikipedia.org/wiki/HDFC_Bank,benign,benign_with_brand_in_path,handwritten,
+C0178,https://github.com/shashankedu02/asli-link,benign,plain_benign,handwritten,
+C0179,https://www.rbi.org.in/,official,official_domain,handwritten,
+C0180,http://sbi.com.verify-account.in/x,impostor,brand_then_tld_trick,handwritten,
+C0181,SBI alert: your account is blocked. Update PAN at http://hdfc-help.top,impostor,claim_mismatch,handwritten,
+C0182,"Dear customer, income tax refund pending. Claim http://refund-claim.top/in",impostor,claim_mismatch,handwritten,
+C0183,https://sbi.bank.in.account-review.top/signin,impostor,deceptive_suffix,handwritten,
+C0184,http://xn--sb-pia.bank.in.example/,impostor,punycode_lookalike,handwritten,
+C0185,Your electricity will be cut tonight. Pay now http://secure-login-portal.xyz/auth,out_of_scope,unbranded_phishing,handwritten,
+C0186,You won a prize! Collect at http://winner-prize-claim.top/x,out_of_scope,unbranded_phishing,handwritten,
+C0187,Pay the courier fee at http://delivery-fee-pay.live/c,out_of_scope,unbranded_phishing,handwritten,
+C0188,http://bit.ly/3xYz9Ab,hidden,shortener,handwritten,
+C0189,Verify here: https://tinyurl.com/yk2w9,hidden,shortener,handwritten,

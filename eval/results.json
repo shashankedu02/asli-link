@@ -1,0 +1,1857 @@
+{
+ "cases": [
+  {
+   "category": "official_domain",
+   "id": "C0001",
+   "note": "sbi",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://sbi.bank.in/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0002",
+   "note": "sbi",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://onlinesbi.sbi/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0003",
+   "note": "sbi",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://sbi.co.in/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0004",
+   "note": "hdfc",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://hdfc.bank.in/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0005",
+   "note": "hdfc",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://hdfcbank.bank.in/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0006",
+   "note": "hdfc",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://hdfcbank.com/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0007",
+   "note": "icici",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://icici.bank.in/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0008",
+   "note": "icici",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://icicibank.com/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0009",
+   "note": "axis",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://axis.bank.in/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0010",
+   "note": "axis",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://axisbank.com/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0011",
+   "note": "kotak",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://kotak.bank.in/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0012",
+   "note": "kotak",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://kotak811.bank.in/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0013",
+   "note": "kotak",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://kotak.com/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0014",
+   "note": "pnb",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://pnb.bank.in/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0015",
+   "note": "pnb",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://pnbindia.in/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0016",
+   "note": "bob",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://bankofbaroda.bank.in/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0017",
+   "note": "bob",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://bankofbaroda.in/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0018",
+   "note": "canara",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://canarabank.bank.in/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0019",
+   "note": "canara",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://canara.bank.in/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0020",
+   "note": "canara",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://canarabank.com/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0021",
+   "note": "union",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://unionbankofindia.bank.in/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0022",
+   "note": "union",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://unionbankofindia.co.in/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0023",
+   "note": "indusind",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://indusind.bank.in/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0024",
+   "note": "indusind",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://indusind.com/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0025",
+   "note": "idfcfirst",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://idfcfirst.bank.in/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0026",
+   "note": "idfcfirst",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://idfcfirstbank.com/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0027",
+   "note": "ujjivan",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://ujjivansfb.bank.in/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0028",
+   "note": "yes",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://yes.bank.in/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0029",
+   "note": "yes",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://yesbank.in/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0030",
+   "note": "federal",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://federal.bank.in/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0031",
+   "note": "federal",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://federalbank.co.in/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0032",
+   "note": "rbi",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://rbi.org.in/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0033",
+   "note": "npci",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://npci.org.in/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0034",
+   "note": "irctc",
+   "outcome": "official",
+   "provenance": "registry_official",
+   "text": "Open https://irctc.co.in/login to continue",
+   "truth": "official"
+  },
+  {
+   "category": "brand_in_hyphen_domain",
+   "id": "C0035",
+   "note": "sbi",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://sbi-kyc-update.com/verify",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_as_subdomain",
+   "id": "C0036",
+   "note": "sbi",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "http://sbi.secure-login.xyz/",
+   "truth": "impostor"
+  },
+  {
+   "category": "userinfo_trick",
+   "id": "C0037",
+   "note": "sbi",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://sbi.bank.in@secure-check.example/login",
+   "truth": "impostor"
+  },
+  {
+   "category": "deceptive_suffix",
+   "id": "C0038",
+   "note": "sbi",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://sbi.bank.in.verify-now.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "typo_of_official",
+   "id": "C0039",
+   "note": "sbi",
+   "outcome": "not_recognised",
+   "provenance": "synthetic_impostor",
+   "text": "https://sbii.co.in/",
+   "truth": "impostor"
+  },
+  {
+   "category": "homoglyph_label",
+   "id": "C0040",
+   "note": "sbi",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://sb1.bank.in.example.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "namespace_lookalike",
+   "id": "C0041",
+   "note": "sbi",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://sbi.bankin.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_in_hyphen_domain",
+   "id": "C0042",
+   "note": "hdfc",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://hdfc-kyc-update.com/verify",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_as_subdomain",
+   "id": "C0043",
+   "note": "hdfc",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "http://hdfc.secure-login.xyz/",
+   "truth": "impostor"
+  },
+  {
+   "category": "userinfo_trick",
+   "id": "C0044",
+   "note": "hdfc",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://hdfc.bank.in@secure-check.example/login",
+   "truth": "impostor"
+  },
+  {
+   "category": "deceptive_suffix",
+   "id": "C0045",
+   "note": "hdfc",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://hdfc.bank.in.verify-now.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "typo_of_official",
+   "id": "C0046",
+   "note": "hdfc",
+   "outcome": "not_recognised",
+   "provenance": "synthetic_impostor",
+   "text": "https://hdcf.co.in/",
+   "truth": "impostor"
+  },
+  {
+   "category": "namespace_lookalike",
+   "id": "C0047",
+   "note": "hdfc",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://hdfc.bankin.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_in_hyphen_domain",
+   "id": "C0048",
+   "note": "icici",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://icici-kyc-update.com/verify",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_as_subdomain",
+   "id": "C0049",
+   "note": "icici",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "http://icici.secure-login.xyz/",
+   "truth": "impostor"
+  },
+  {
+   "category": "userinfo_trick",
+   "id": "C0050",
+   "note": "icici",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://icici.bank.in@secure-check.example/login",
+   "truth": "impostor"
+  },
+  {
+   "category": "deceptive_suffix",
+   "id": "C0051",
+   "note": "icici",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://icici.bank.in.verify-now.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "typo_of_official",
+   "id": "C0052",
+   "note": "icici",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://iciic.co.in/",
+   "truth": "impostor"
+  },
+  {
+   "category": "homoglyph_label",
+   "id": "C0053",
+   "note": "icici",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://1cici.bank.in.example.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "namespace_lookalike",
+   "id": "C0054",
+   "note": "icici",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://icici.bankin.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_in_hyphen_domain",
+   "id": "C0055",
+   "note": "axis",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://axisbank-kyc-update.com/verify",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_as_subdomain",
+   "id": "C0056",
+   "note": "axis",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "http://axisbank.secure-login.xyz/",
+   "truth": "impostor"
+  },
+  {
+   "category": "userinfo_trick",
+   "id": "C0057",
+   "note": "axis",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://axis.bank.in@secure-check.example/login",
+   "truth": "impostor"
+  },
+  {
+   "category": "deceptive_suffix",
+   "id": "C0058",
+   "note": "axis",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://axis.bank.in.verify-now.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "typo_of_official",
+   "id": "C0059",
+   "note": "axis",
+   "outcome": "not_recognised",
+   "provenance": "synthetic_impostor",
+   "text": "https://axsi.co.in/",
+   "truth": "impostor"
+  },
+  {
+   "category": "homoglyph_label",
+   "id": "C0060",
+   "note": "axis",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://ax1s.bank.in.example.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "namespace_lookalike",
+   "id": "C0061",
+   "note": "axis",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://axisbank.bankin.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_in_hyphen_domain",
+   "id": "C0062",
+   "note": "kotak",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://kotak-kyc-update.com/verify",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_as_subdomain",
+   "id": "C0063",
+   "note": "kotak",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "http://kotak.secure-login.xyz/",
+   "truth": "impostor"
+  },
+  {
+   "category": "userinfo_trick",
+   "id": "C0064",
+   "note": "kotak",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://kotak.bank.in@secure-check.example/login",
+   "truth": "impostor"
+  },
+  {
+   "category": "deceptive_suffix",
+   "id": "C0065",
+   "note": "kotak",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://kotak.bank.in.verify-now.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "typo_of_official",
+   "id": "C0066",
+   "note": "kotak",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://kotka.co.in/",
+   "truth": "impostor"
+  },
+  {
+   "category": "homoglyph_label",
+   "id": "C0067",
+   "note": "kotak",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://k0tak.bank.in.example.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "namespace_lookalike",
+   "id": "C0068",
+   "note": "kotak",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://kotak.bankin.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_in_hyphen_domain",
+   "id": "C0069",
+   "note": "pnb",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://pnb-kyc-update.com/verify",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_as_subdomain",
+   "id": "C0070",
+   "note": "pnb",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "http://pnb.secure-login.xyz/",
+   "truth": "impostor"
+  },
+  {
+   "category": "userinfo_trick",
+   "id": "C0071",
+   "note": "pnb",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://pnb.bank.in@secure-check.example/login",
+   "truth": "impostor"
+  },
+  {
+   "category": "deceptive_suffix",
+   "id": "C0072",
+   "note": "pnb",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://pnb.bank.in.verify-now.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "typo_of_official",
+   "id": "C0073",
+   "note": "pnb",
+   "outcome": "not_recognised",
+   "provenance": "synthetic_impostor",
+   "text": "https://pnbb.co.in/",
+   "truth": "impostor"
+  },
+  {
+   "category": "namespace_lookalike",
+   "id": "C0074",
+   "note": "pnb",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://pnb.bankin.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_in_hyphen_domain",
+   "id": "C0075",
+   "note": "bob",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://bankofbaroda-kyc-update.com/verify",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_as_subdomain",
+   "id": "C0076",
+   "note": "bob",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "http://bankofbaroda.secure-login.xyz/",
+   "truth": "impostor"
+  },
+  {
+   "category": "userinfo_trick",
+   "id": "C0077",
+   "note": "bob",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://bankofbaroda.bank.in@secure-check.example/login",
+   "truth": "impostor"
+  },
+  {
+   "category": "deceptive_suffix",
+   "id": "C0078",
+   "note": "bob",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://bankofbaroda.bank.in.verify-now.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "typo_of_official",
+   "id": "C0079",
+   "note": "bob",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://bankofbaroad.co.in/",
+   "truth": "impostor"
+  },
+  {
+   "category": "homoglyph_label",
+   "id": "C0080",
+   "note": "bob",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://bank0fbaroda.bank.in.example.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "namespace_lookalike",
+   "id": "C0081",
+   "note": "bob",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://bankofbaroda.bankin.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_in_hyphen_domain",
+   "id": "C0082",
+   "note": "canara",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://canara-kyc-update.com/verify",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_as_subdomain",
+   "id": "C0083",
+   "note": "canara",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "http://canara.secure-login.xyz/",
+   "truth": "impostor"
+  },
+  {
+   "category": "userinfo_trick",
+   "id": "C0084",
+   "note": "canara",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://canarabank.bank.in@secure-check.example/login",
+   "truth": "impostor"
+  },
+  {
+   "category": "deceptive_suffix",
+   "id": "C0085",
+   "note": "canara",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://canarabank.bank.in.verify-now.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "typo_of_official",
+   "id": "C0086",
+   "note": "canara",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://canarabakn.co.in/",
+   "truth": "impostor"
+  },
+  {
+   "category": "namespace_lookalike",
+   "id": "C0087",
+   "note": "canara",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://canara.bankin.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_in_hyphen_domain",
+   "id": "C0088",
+   "note": "union",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://unionbank-kyc-update.com/verify",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_as_subdomain",
+   "id": "C0089",
+   "note": "union",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "http://unionbank.secure-login.xyz/",
+   "truth": "impostor"
+  },
+  {
+   "category": "userinfo_trick",
+   "id": "C0090",
+   "note": "union",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://unionbankofindia.bank.in@secure-check.example/login",
+   "truth": "impostor"
+  },
+  {
+   "category": "deceptive_suffix",
+   "id": "C0091",
+   "note": "union",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://unionbankofindia.bank.in.verify-now.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "typo_of_official",
+   "id": "C0092",
+   "note": "union",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://unionbankofindai.co.in/",
+   "truth": "impostor"
+  },
+  {
+   "category": "homoglyph_label",
+   "id": "C0093",
+   "note": "union",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://uni0nbankofindia.bank.in.example.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "namespace_lookalike",
+   "id": "C0094",
+   "note": "union",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://unionbank.bankin.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_in_hyphen_domain",
+   "id": "C0095",
+   "note": "indusind",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://indusind-kyc-update.com/verify",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_as_subdomain",
+   "id": "C0096",
+   "note": "indusind",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "http://indusind.secure-login.xyz/",
+   "truth": "impostor"
+  },
+  {
+   "category": "userinfo_trick",
+   "id": "C0097",
+   "note": "indusind",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://indusind.bank.in@secure-check.example/login",
+   "truth": "impostor"
+  },
+  {
+   "category": "deceptive_suffix",
+   "id": "C0098",
+   "note": "indusind",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://indusind.bank.in.verify-now.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "typo_of_official",
+   "id": "C0099",
+   "note": "indusind",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://indusidn.co.in/",
+   "truth": "impostor"
+  },
+  {
+   "category": "homoglyph_label",
+   "id": "C0100",
+   "note": "indusind",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://1ndusind.bank.in.example.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "namespace_lookalike",
+   "id": "C0101",
+   "note": "indusind",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://indusind.bankin.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_in_hyphen_domain",
+   "id": "C0102",
+   "note": "idfcfirst",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://idfc-kyc-update.com/verify",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_as_subdomain",
+   "id": "C0103",
+   "note": "idfcfirst",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "http://idfc.secure-login.xyz/",
+   "truth": "impostor"
+  },
+  {
+   "category": "userinfo_trick",
+   "id": "C0104",
+   "note": "idfcfirst",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://idfcfirst.bank.in@secure-check.example/login",
+   "truth": "impostor"
+  },
+  {
+   "category": "deceptive_suffix",
+   "id": "C0105",
+   "note": "idfcfirst",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://idfcfirst.bank.in.verify-now.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "typo_of_official",
+   "id": "C0106",
+   "note": "idfcfirst",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://idfcfirts.co.in/",
+   "truth": "impostor"
+  },
+  {
+   "category": "homoglyph_label",
+   "id": "C0107",
+   "note": "idfcfirst",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://1dfcfirst.bank.in.example.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "namespace_lookalike",
+   "id": "C0108",
+   "note": "idfcfirst",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://idfc.bankin.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_in_hyphen_domain",
+   "id": "C0109",
+   "note": "ujjivan",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://ujjivan-kyc-update.com/verify",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_as_subdomain",
+   "id": "C0110",
+   "note": "ujjivan",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "http://ujjivan.secure-login.xyz/",
+   "truth": "impostor"
+  },
+  {
+   "category": "userinfo_trick",
+   "id": "C0111",
+   "note": "ujjivan",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://ujjivansfb.bank.in@secure-check.example/login",
+   "truth": "impostor"
+  },
+  {
+   "category": "deceptive_suffix",
+   "id": "C0112",
+   "note": "ujjivan",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://ujjivansfb.bank.in.verify-now.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "typo_of_official",
+   "id": "C0113",
+   "note": "ujjivan",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://ujjivansbf.co.in/",
+   "truth": "impostor"
+  },
+  {
+   "category": "homoglyph_label",
+   "id": "C0114",
+   "note": "ujjivan",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://ujj1vansfb.bank.in.example.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "namespace_lookalike",
+   "id": "C0115",
+   "note": "ujjivan",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://ujjivan.bankin.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_in_hyphen_domain",
+   "id": "C0116",
+   "note": "yes",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://yesbank-kyc-update.com/verify",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_as_subdomain",
+   "id": "C0117",
+   "note": "yes",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "http://yesbank.secure-login.xyz/",
+   "truth": "impostor"
+  },
+  {
+   "category": "userinfo_trick",
+   "id": "C0118",
+   "note": "yes",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://yes.bank.in@secure-check.example/login",
+   "truth": "impostor"
+  },
+  {
+   "category": "deceptive_suffix",
+   "id": "C0119",
+   "note": "yes",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://yes.bank.in.verify-now.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "typo_of_official",
+   "id": "C0120",
+   "note": "yes",
+   "outcome": "not_recognised",
+   "provenance": "synthetic_impostor",
+   "text": "https://yess.co.in/",
+   "truth": "impostor"
+  },
+  {
+   "category": "homoglyph_label",
+   "id": "C0121",
+   "note": "yes",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://ye5.bank.in.example.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "namespace_lookalike",
+   "id": "C0122",
+   "note": "yes",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://yesbank.bankin.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_in_hyphen_domain",
+   "id": "C0123",
+   "note": "federal",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://federalbank-kyc-update.com/verify",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_as_subdomain",
+   "id": "C0124",
+   "note": "federal",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "http://federalbank.secure-login.xyz/",
+   "truth": "impostor"
+  },
+  {
+   "category": "userinfo_trick",
+   "id": "C0125",
+   "note": "federal",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://federal.bank.in@secure-check.example/login",
+   "truth": "impostor"
+  },
+  {
+   "category": "deceptive_suffix",
+   "id": "C0126",
+   "note": "federal",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://federal.bank.in.verify-now.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "typo_of_official",
+   "id": "C0127",
+   "note": "federal",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://federla.co.in/",
+   "truth": "impostor"
+  },
+  {
+   "category": "homoglyph_label",
+   "id": "C0128",
+   "note": "federal",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://federa1.bank.in.example.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "namespace_lookalike",
+   "id": "C0129",
+   "note": "federal",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://federalbank.bankin.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_in_hyphen_domain",
+   "id": "C0130",
+   "note": "incometax",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://incometax-kyc-update.com/verify",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_as_subdomain",
+   "id": "C0131",
+   "note": "incometax",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "http://incometax.secure-login.xyz/",
+   "truth": "impostor"
+  },
+  {
+   "category": "namespace_lookalike",
+   "id": "C0132",
+   "note": "incometax",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://incometax.bankin.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_in_hyphen_domain",
+   "id": "C0133",
+   "note": "epfo",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://epfo-kyc-update.com/verify",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_as_subdomain",
+   "id": "C0134",
+   "note": "epfo",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "http://epfo.secure-login.xyz/",
+   "truth": "impostor"
+  },
+  {
+   "category": "namespace_lookalike",
+   "id": "C0135",
+   "note": "epfo",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://epfo.bankin.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_in_hyphen_domain",
+   "id": "C0136",
+   "note": "uidai",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://uidai-kyc-update.com/verify",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_as_subdomain",
+   "id": "C0137",
+   "note": "uidai",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "http://uidai.secure-login.xyz/",
+   "truth": "impostor"
+  },
+  {
+   "category": "namespace_lookalike",
+   "id": "C0138",
+   "note": "uidai",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://uidai.bankin.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_in_hyphen_domain",
+   "id": "C0139",
+   "note": "indiapost",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://indiapost-kyc-update.com/verify",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_as_subdomain",
+   "id": "C0140",
+   "note": "indiapost",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "http://indiapost.secure-login.xyz/",
+   "truth": "impostor"
+  },
+  {
+   "category": "namespace_lookalike",
+   "id": "C0141",
+   "note": "indiapost",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://indiapost.bankin.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_in_hyphen_domain",
+   "id": "C0142",
+   "note": "parivahan",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://parivahan-kyc-update.com/verify",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_as_subdomain",
+   "id": "C0143",
+   "note": "parivahan",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "http://parivahan.secure-login.xyz/",
+   "truth": "impostor"
+  },
+  {
+   "category": "namespace_lookalike",
+   "id": "C0144",
+   "note": "parivahan",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://parivahan.bankin.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_in_hyphen_domain",
+   "id": "C0145",
+   "note": "passport",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://passportindia-kyc-update.com/verify",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_as_subdomain",
+   "id": "C0146",
+   "note": "passport",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "http://passportindia.secure-login.xyz/",
+   "truth": "impostor"
+  },
+  {
+   "category": "namespace_lookalike",
+   "id": "C0147",
+   "note": "passport",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://passportindia.bankin.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_in_hyphen_domain",
+   "id": "C0148",
+   "note": "digilocker",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://digilocker-kyc-update.com/verify",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_as_subdomain",
+   "id": "C0149",
+   "note": "digilocker",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "http://digilocker.secure-login.xyz/",
+   "truth": "impostor"
+  },
+  {
+   "category": "namespace_lookalike",
+   "id": "C0150",
+   "note": "digilocker",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://digilocker.bankin.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_in_hyphen_domain",
+   "id": "C0151",
+   "note": "pmkisan",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://pmkisan-kyc-update.com/verify",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_as_subdomain",
+   "id": "C0152",
+   "note": "pmkisan",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "http://pmkisan.secure-login.xyz/",
+   "truth": "impostor"
+  },
+  {
+   "category": "namespace_lookalike",
+   "id": "C0153",
+   "note": "pmkisan",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://pmkisan.bankin.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_in_hyphen_domain",
+   "id": "C0154",
+   "note": "rbi",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://rbi-kyc-update.com/verify",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_as_subdomain",
+   "id": "C0155",
+   "note": "rbi",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "http://rbi.secure-login.xyz/",
+   "truth": "impostor"
+  },
+  {
+   "category": "userinfo_trick",
+   "id": "C0156",
+   "note": "rbi",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://rbi.org.in@secure-check.example/login",
+   "truth": "impostor"
+  },
+  {
+   "category": "deceptive_suffix",
+   "id": "C0157",
+   "note": "rbi",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://rbi.org.in.verify-now.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "typo_of_official",
+   "id": "C0158",
+   "note": "rbi",
+   "outcome": "not_recognised",
+   "provenance": "synthetic_impostor",
+   "text": "https://rbii.co.in/",
+   "truth": "impostor"
+  },
+  {
+   "category": "homoglyph_label",
+   "id": "C0159",
+   "note": "rbi",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://rb1.bank.in.example.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "namespace_lookalike",
+   "id": "C0160",
+   "note": "rbi",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://rbi.bankin.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_in_hyphen_domain",
+   "id": "C0161",
+   "note": "npci",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://npci-kyc-update.com/verify",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_as_subdomain",
+   "id": "C0162",
+   "note": "npci",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "http://npci.secure-login.xyz/",
+   "truth": "impostor"
+  },
+  {
+   "category": "userinfo_trick",
+   "id": "C0163",
+   "note": "npci",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://npci.org.in@secure-check.example/login",
+   "truth": "impostor"
+  },
+  {
+   "category": "deceptive_suffix",
+   "id": "C0164",
+   "note": "npci",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://npci.org.in.verify-now.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "typo_of_official",
+   "id": "C0165",
+   "note": "npci",
+   "outcome": "not_recognised",
+   "provenance": "synthetic_impostor",
+   "text": "https://npic.co.in/",
+   "truth": "impostor"
+  },
+  {
+   "category": "homoglyph_label",
+   "id": "C0166",
+   "note": "npci",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://npc1.bank.in.example.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "namespace_lookalike",
+   "id": "C0167",
+   "note": "npci",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://npci.bankin.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_in_hyphen_domain",
+   "id": "C0168",
+   "note": "irctc",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://irctc-kyc-update.com/verify",
+   "truth": "impostor"
+  },
+  {
+   "category": "brand_as_subdomain",
+   "id": "C0169",
+   "note": "irctc",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "http://irctc.secure-login.xyz/",
+   "truth": "impostor"
+  },
+  {
+   "category": "userinfo_trick",
+   "id": "C0170",
+   "note": "irctc",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://irctc.co.in@secure-check.example/login",
+   "truth": "impostor"
+  },
+  {
+   "category": "deceptive_suffix",
+   "id": "C0171",
+   "note": "irctc",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://irctc.co.in.verify-now.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "typo_of_official",
+   "id": "C0172",
+   "note": "irctc",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://ircct.co.in/",
+   "truth": "impostor"
+  },
+  {
+   "category": "homoglyph_label",
+   "id": "C0173",
+   "note": "irctc",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://1rctc.bank.in.example.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "namespace_lookalike",
+   "id": "C0174",
+   "note": "irctc",
+   "outcome": "flagged",
+   "provenance": "synthetic_impostor",
+   "text": "https://irctc.bankin.com/",
+   "truth": "impostor"
+  },
+  {
+   "category": "plain_benign",
+   "id": "C0175",
+   "note": "",
+   "outcome": "not_recognised",
+   "provenance": "handwritten",
+   "text": "https://www.python.org/downloads/",
+   "truth": "benign"
+  },
+  {
+   "category": "benign_with_brand_in_path",
+   "id": "C0176",
+   "note": "",
+   "outcome": "not_recognised",
+   "provenance": "handwritten",
+   "text": "https://en.wikipedia.org/wiki/State_Bank_of_India",
+   "truth": "benign"
+  },
+  {
+   "category": "benign_with_brand_in_path",
+   "id": "C0177",
+   "note": "",
+   "outcome": "flagged",
+   "provenance": "handwritten",
+   "text": "Read about HDFC history at https://en.wikipedia.org/wiki/HDFC_Bank",
+   "truth": "benign"
+  },
+  {
+   "category": "plain_benign",
+   "id": "C0178",
+   "note": "",
+   "outcome": "not_recognised",
+   "provenance": "handwritten",
+   "text": "https://github.com/shashankedu02/asli-link",
+   "truth": "benign"
+  },
+  {
+   "category": "official_domain",
+   "id": "C0179",
+   "note": "",
+   "outcome": "official",
+   "provenance": "handwritten",
+   "text": "https://www.rbi.org.in/",
+   "truth": "official"
+  },
+  {
+   "category": "brand_then_tld_trick",
+   "id": "C0180",
+   "note": "",
+   "outcome": "flagged",
+   "provenance": "handwritten",
+   "text": "http://sbi.com.verify-account.in/x",
+   "truth": "impostor"
+  },
+  {
+   "category": "claim_mismatch",
+   "id": "C0181",
+   "note": "",
+   "outcome": "flagged",
+   "provenance": "handwritten",
+   "text": "SBI alert: your account is blocked. Update PAN at http://hdfc-help.top",
+   "truth": "impostor"
+  },
+  {
+   "category": "claim_mismatch",
+   "id": "C0182",
+   "note": "",
+   "outcome": "flagged",
+   "provenance": "handwritten",
+   "text": "Dear customer, income tax refund pending. Claim http://refund-claim.top/in",
+   "truth": "impostor"
+  },
+  {
+   "category": "deceptive_suffix",
+   "id": "C0183",
+   "note": "",
+   "outcome": "flagged",
+   "provenance": "handwritten",
+   "text": "https://sbi.bank.in.account-review.top/signin",
+   "truth": "impostor"
+  },
+  {
+   "category": "punycode_lookalike",
+   "id": "C0184",
+   "note": "",
+   "outcome": "flagged",
+   "provenance": "handwritten",
+   "text": "http://xn--sb-pia.bank.in.example/",
+   "truth": "impostor"
+  },
+  {
+   "category": "unbranded_phishing",
+   "id": "C0185",
+   "note": "",
+   "outcome": "not_recognised",
+   "provenance": "handwritten",
+   "text": "Your electricity will be cut tonight. Pay now http://secure-login-portal.xyz/auth",
+   "truth": "out_of_scope"
+  },
+  {
+   "category": "unbranded_phishing",
+   "id": "C0186",
+   "note": "",
+   "outcome": "not_recognised",
+   "provenance": "handwritten",
+   "text": "You won a prize! Collect at http://winner-prize-claim.top/x",
+   "truth": "out_of_scope"
+  },
+  {
+   "category": "unbranded_phishing",
+   "id": "C0187",
+   "note": "",
+   "outcome": "not_recognised",
+   "provenance": "handwritten",
+   "text": "Pay the courier fee at http://delivery-fee-pay.live/c",
+   "truth": "out_of_scope"
+  },
+  {
+   "category": "shortener",
+   "id": "C0188",
+   "note": "",
+   "outcome": "cannot_check",
+   "provenance": "handwritten",
+   "text": "http://bit.ly/3xYz9Ab",
+   "truth": "hidden"
+  },
+  {
+   "category": "shortener",
+   "id": "C0189",
+   "note": "",
+   "outcome": "cannot_check",
+   "provenance": "handwritten",
+   "text": "Verify here: https://tinyurl.com/yk2w9",
+   "truth": "hidden"
+  }
+ ],
+ "n_cases": 189,
+ "registry_version": "2026-11-18",
+ "summary": {
+  "by_category": {
+   "benign/benign_with_brand_in_path": {
+    "flagged": 1,
+    "not_recognised": 1
+   },
+   "benign/plain_benign": {
+    "not_recognised": 2
+   },
+   "hidden/shortener": {
+    "cannot_check": 2
+   },
+   "impostor/brand_as_subdomain": {
+    "flagged": 25
+   },
+   "impostor/brand_in_hyphen_domain": {
+    "flagged": 25
+   },
+   "impostor/brand_then_tld_trick": {
+    "flagged": 1
+   },
+   "impostor/claim_mismatch": {
+    "flagged": 2
+   },
+   "impostor/deceptive_suffix": {
+    "flagged": 18
+   },
+   "impostor/homoglyph_label": {
+    "flagged": 14
+   },
+   "impostor/namespace_lookalike": {
+    "flagged": 25
+   },
+   "impostor/punycode_lookalike": {
+    "flagged": 1
+   },
+   "impostor/typo_of_official": {
+    "flagged": 10,
+    "not_recognised": 7
+   },
+   "impostor/userinfo_trick": {
+    "flagged": 17
+   },
+   "official/official_domain": {
+    "official": 35
+   },
+   "out_of_scope/unbranded_phishing": {
+    "not_recognised": 3
+   }
+  },
+  "by_provenance_truth": {
+   "handwritten/benign": {
+    "flagged": 1,
+    "n": 4,
+    "not_recognised": 3
+   },
+   "handwritten/hidden": {
+    "cannot_check": 2,
+    "n": 2
+   },
+   "handwritten/impostor": {
+    "flagged": 5,
+    "n": 5
+   },
+   "handwritten/official": {
+    "n": 1,
+    "official": 1
+   },
+   "handwritten/out_of_scope": {
+    "n": 3,
+    "not_recognised": 3
+   },
+   "registry_official/official": {
+    "n": 34,
+    "official": 34
+   },
+   "synthetic_impostor/impostor": {
+    "flagged": 133,
+    "n": 140,
+    "not_recognised": 7
+   }
+  },
+  "failures": [
+   {
+    "category": "typo_of_official",
+    "id": "C0039",
+    "outcome": "not_recognised",
+    "provenance": "synthetic_impostor",
+    "text": "https://sbii.co.in/",
+    "truth": "impostor"
+   },
+   {
+    "category": "typo_of_official",
+    "id": "C0046",
+    "outcome": "not_recognised",
+    "provenance": "synthetic_impostor",
+    "text": "https://hdcf.co.in/",
+    "truth": "impostor"
+   },
+   {
+    "category": "typo_of_official",
+    "id": "C0059",
+    "outcome": "not_recognised",
+    "provenance": "synthetic_impostor",
+    "text": "https://axsi.co.in/",
+    "truth": "impostor"
+   },
+   {
+    "category": "typo_of_official",
+    "id": "C0073",
+    "outcome": "not_recognised",
+    "provenance": "synthetic_impostor",
+    "text": "https://pnbb.co.in/",
+    "truth": "impostor"
+   },
+   {
+    "category": "typo_of_official",
+    "id": "C0120",
+    "outcome": "not_recognised",
+    "provenance": "synthetic_impostor",
+    "text": "https://yess.co.in/",
+    "truth": "impostor"
+   },
+   {
+    "category": "typo_of_official",
+    "id": "C0158",
+    "outcome": "not_recognised",
+    "provenance": "synthetic_impostor",
+    "text": "https://rbii.co.in/",
+    "truth": "impostor"
+   },
+   {
+    "category": "typo_of_official",
+    "id": "C0165",
+    "outcome": "not_recognised",
+    "provenance": "synthetic_impostor",
+    "text": "https://npic.co.in/",
+    "truth": "impostor"
+   },
+   {
+    "category": "benign_with_brand_in_path",
+    "id": "C0177",
+    "outcome": "flagged",
+    "provenance": "handwritten",
+    "text": "Read about HDFC history at https://en.wikipedia.org/wiki/HDFC_Bank",
+    "truth": "benign"
+   }
+  ],
+  "impostor_judged_official": 0
+ }
+}

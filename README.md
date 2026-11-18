@@ -99,7 +99,8 @@ The suite covers:
 - domain parsing traps;
 - every signal, with positive and negative cases (unrelated domains must stay *Not recognised*);
 - registry fail-closed loading (a malformed registry stops the app instead of answering);
-- the API contract, security headers, and that pasted text is never logged.
+- the API contract, security headers, and that pasted text is never logged;
+- the evaluation harness: its cases and recorded results must match a fresh run.
 
 CI runs lint, the suite on Python 3.11 and 3.13, and a live start-up check of the server.
 
@@ -117,6 +118,18 @@ CI runs lint, the suite on Python 3.11 and 3.13, and a live start-up check of th
   - A test checks that every curated `.bank.in` entry appears in it. That check corrected the seed list:
     `unionbankonline.bank.in` had no current certificate; `unionbankofindia.bank.in` does.
 
+## Evaluation
+
+`python scripts/evaluate.py` runs the checker over 189 labelled cases (`eval/cases.csv`) and writes
+[`docs/EVALUATION.md`](docs/EVALUATION.md). The report lists every case that did not match its label.
+
+Read it with these limits in mind: the set is small, most impostor cases are **synthetic** (generated from the registry
+by rules that mirror the checker's own signals, so they flatter it), and it holds **no real phishing from the wild**.
+The one hard claim is a safety invariant, tested in CI: no impostor or unbranded-phishing case is ever judged
+*Official*. Misses are published, for example very short look-alike labels (`sbii`, `yess`) that the edit-distance
+limit deliberately ignores, and a link in a message that names a bank is flagged even when the link is harmless
+(a Wikipedia article about HDFC).
+
 ## Limitations
 
 - It checks addresses, not page content. A compromised official site, or a phishing page on a free hosting service
@@ -129,14 +142,15 @@ CI runs lint, the suite on Python 3.11 and 3.13, and a live start-up check of th
   deliberate: "customer.Click" in a message is usually a missing space, not a link.
 - Shortened links are not expanded, because expanding one contacts the sender's server.
 - English messages only, for now.
-- No accuracy figures are claimed yet. A labelled evaluation is planned (see roadmap).
+- No real-world detection rate has been measured. The evaluation is small and mostly synthetic; see Evaluation above.
 
 ## Roadmap
 
 - [ ] Live impostor monitor: watch Certificate Transparency logs for newly certified domains that imitate Indian banks
       and government services, with an analyst view and export.
-- [ ] Evaluation: precision on a labelled sample of monitor output; recall on known Indian-brand phishing URLs from
-      public feeds. Raw labels committed.
+- [x] Evaluation harness: 189 labelled cases, reproducible, misses published (`docs/EVALUATION.md`).
+- [ ] Real-world evaluation: precision on a labelled sample of monitor output; recall on known Indian-brand phishing
+      URLs from public feeds. Raw labels committed.
 - [ ] Expand the curated registry (all scheduled banks, more departments), each entry with a source.
 - [ ] Hindi and Kannada message support.
 - [ ] Public deployment.
